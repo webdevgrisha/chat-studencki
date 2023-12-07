@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat studencki rejester</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="main-title">Chat studencki</h1>
+        <h2 class="sub-title">Rejestracja</h2>
+      </header>
+      <main>
+        <form>
+          <fieldset>
+            <div class="mb-4">
+              <label for="studentName" class="form-label">Name and surname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="studentName"
+                placeholder="Imię i nazwisko"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="studentEmail" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="studentEmail"
+                placeholder="111111@student.pwr.edu.pl"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="studentPas" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="studentPas"
+                placeholder="hasło"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="studentRepeatPas" class="form-label">Repeat password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="studentRepeatPas"
+                placeholder="Powtórz hasło"
+              />
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="acceptRules">
+                <label class="form-check-label" for="acceptRules">
+                  Akceptuję regulamin
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Rejister</button>
+          </fieldset>
+        </form>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
