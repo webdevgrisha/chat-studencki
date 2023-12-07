@@ -10,9 +10,13 @@
 }
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+}
+header .sub-title {
+    font-size: 25px;
 }
 main {
     display: flex;
